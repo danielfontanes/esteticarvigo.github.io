@@ -5,8 +5,11 @@
   text-decoration: none;
 }
 
-body header {
+body {
   background-color: black;
+}
+
+body header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,6 +81,11 @@ body .services {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 20px;
+}
+
+body .services h2 {
+  color: white;
 }
 
 body .services div {
@@ -91,10 +99,13 @@ body .services div {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: white;
+  border: 1px solid black;
 }
 
 body .services div img {
   height: 50px;
+  width: 50px;
   background-color: #C4001B;
   padding: 10px;
 }
@@ -103,5 +114,12 @@ body .services div h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0px 15px;
+}
+
+body .contact {
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */

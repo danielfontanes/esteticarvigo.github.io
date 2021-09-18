@@ -7,11 +7,11 @@
 }
 
 body{
+    background-color: black;
     header{
-        background-color: black;
         display: flex;
         flex-direction: row;
-        justify-content:space-around ;
+        justify-content:space-around;
         img{
             width: 100px;
             padding: 20px;
@@ -56,18 +56,31 @@ body{
     .services{
         display: flex;
         flex-direction: column;
+        padding:20px;
+        h2{
+            color: white;
+        }
         div{
             display: flex;
             flex-direction: row;
             align-items: center;
+            background-color: white;
+            border: 1px solid black;
             img{
                 height: 50px;
+                width: 50px;
                 background-color:#C4001B;
                 padding: 10px;
             }
             h3{
                 display: flex;
+                margin: 0px 15px;
             }
         }
+    }
+    .contact{
+        padding:20px;
+        text-align: center;
+        color: white;
     }
 }
