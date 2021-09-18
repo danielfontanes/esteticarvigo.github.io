@@ -1,8 +1,11 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
   margin: 0px;
+  font-family: Lato, Helvetica, Arial;
+  text-decoration: none;
 }
 
-header {
+body header {
   background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,25 +14,94 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-header img {
-  height: 200px;
+body header img {
+  width: 100px;
   padding: 20px;
 }
 
-header ul {
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
+  padding: 0px;
 }
 
-header ul li {
-  margin: 20px;
-}
-
-header ul li a {
+body header ul a {
   color: white;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #C4001B;
+  border-radius: 20px;
+}
+
+body header ul a:hover {
+  background-color: #C4001B;
+}
+
+body .main-div {
+  position: relative;
+  display: inline-block;
+}
+
+body .main-div .main-picture {
+  width: 100vw;
+}
+
+body .main-div .main-text {
+  position: absolute;
+  top: 76%;
+  right: 7%;
+  color: white;
+  font-size: 36px;
+  text-shadow: 1px 1px black;
+}
+
+body .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .services div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .services div img {
+  height: 50px;
+  background-color: #C4001B;
+  padding: 10px;
+}
+
+body .services div h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=styles.css.map */

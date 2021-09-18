@@ -1,21 +1,72 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
     margin: 0px;
+    font-family: Lato, Helvetica, Arial;
+    text-decoration: none;
 }
-header{
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    img{
-        height: 200px;
-        padding: 20px;
-    }
-    ul{
+
+body{
+    header{
+        background-color: black;
         display: flex;
-        list-style: none;
-        li{
-            margin:20px;
+        flex-direction: row;
+        justify-content:space-around ;
+        img{
+            width: 100px;
+            padding: 20px;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            padding: 0px;
+
             a{
                 color: white;
+                margin:5px;
+                padding: 10px;
+                border: 1px solid #C4001B;
+                border-radius: 20px;
+                &:hover{
+                    background-color:#C4001B;
+                }
+            }
+        }
+    }
+    .main-div{
+        position: relative;
+        display: inline-block;
+        
+        .main-picture{
+            width: 100vw;
+        }
+        .main-text{
+            position: absolute;
+            top: 76%;
+            right: 7%;
+            color: white;
+            font-size: 36px;
+            text-shadow: 1px 1px black;
+        }
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            img{
+                height: 50px;
+                background-color:#C4001B;
+                padding: 10px;
+            }
+            h3{
+                display: flex;
             }
         }
     }
