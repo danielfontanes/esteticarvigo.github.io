@@ -122,4 +122,21 @@ body .contact {
   text-align: center;
   color: white;
 }
+
+body .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .social-media a {
+  margin-bottom: 30px;
+}
+
+body .social-media a img {
+  width: 30px;
+}
 /*# sourceMappingURL=styles.css.map */
