@@ -8,41 +8,24 @@
 body {
   background-color: black;
 }
-
 body header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
 body header img {
   width: 100px;
   padding: 20px;
 }
-
 body header nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 body header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style: none;
   padding: 0px;
 }
-
 body header ul a {
   color: white;
   margin: 5px;
@@ -50,20 +33,16 @@ body header ul a {
   border: 1px solid #C4001B;
   border-radius: 20px;
 }
-
 body header ul a:hover {
   background-color: #C4001B;
 }
-
 body .main-div {
   position: relative;
   display: inline-block;
 }
-
 body .main-div .main-picture {
   width: 100vw;
 }
-
 body .main-div .main-text {
   position: absolute;
   top: 76%;
@@ -72,71 +51,43 @@ body .main-div .main-text {
   font-size: 36px;
   text-shadow: 1px 1px black;
 }
-
 body .services {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 20px;
 }
-
 body .services h2 {
   color: white;
 }
-
 body .services div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  align-items: center;
   background-color: white;
   border: 1px solid black;
 }
-
 body .services div img {
   height: 50px;
   width: 50px;
   background-color: #C4001B;
   padding: 10px;
 }
-
 body .services div h3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 0px 15px;
 }
-
 body .contact {
   padding: 20px;
   text-align: center;
   color: white;
 }
-
 body .social-media {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 body .social-media a {
   margin-bottom: 30px;
 }
-
 body .social-media a img {
   width: 30px;
 }
-/*# sourceMappingURL=styles.css.map */
